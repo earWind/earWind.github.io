@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cb1130;
+  background: #7d61ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2792,4 +2792,37 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("/images/background-img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.9;
+  min-height: 500px;
+}
+#menu a {
+  color: #fff;
+}
+.custom-logo-site-title {
+  font-size: 28px;
+  opacity: 1;
+  background-color: rgba(0,0,0,0);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+}
+.custom-logo-site-titl:hover {
+  color: #fff;
+}
+.brand {
+  color: #9d9d9d;
+  background: none;
+}
+.header-inner {
+  padding: 20px 0 20px 0;
 }
